@@ -4,7 +4,7 @@
 
 	<groupId>com.ehanlin</groupId>
 	<artifactId>hconvert</artifactId>
-	<version>0.4-SNAPSHOT</version>
+	<version>0.4.0</version>
 	<packaging>jar</packaging>
 
 	<name>hconvert</name>
@@ -70,6 +70,13 @@
 
 		</plugins>
 	</build>
+
+	<distributionManagement>
+		<repository>
+			<id>bintray</id>
+			<url>https://api.bintray.com/maven/hotdog929/maven/hConvert/;publish=1</url>
+		</repository>
+	</distributionManagement>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
